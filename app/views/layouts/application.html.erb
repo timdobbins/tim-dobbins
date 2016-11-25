@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>TimDobbins</title>
+  <title>Primary Keyword - Secondary Keyword - Brand</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+	<ul>
+		<li><%= link_to "home", root_path %></li>
+		<li><%= link_to "about", about_path %></li>
+	</ul>
 
 <%= yield %>
 
