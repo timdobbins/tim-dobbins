@@ -1,3 +1,51 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	background: #f6f9fc;
+}
+
+
+#profile-pic {
+	width: 150px;
+	margin: 0 auto;
+}
+
+#profile-pic img {
+	border-radius: 50%;
+}
+
+.centered {
+	text-align: center;
+}
+
+.container {
+	margin-top: 40px;
+	width: 400px;
+}
+
+p, h1 {
+	margin: 40px 0;
+}
+
+.btn {
+	padding: 10px 15px;
+	border: none;
+	border-radius: 4px;
+	box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px 0px; 
+	text-transform: uppercase;
+	color: #535678;
+
+} 
+
+.btn-primary {
+	background: #fff;
+
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:link {
+	box-shadow: rgba(50, 50, 93, 0.30) 0px 4px 6px 0px;
+	background: #fff;
+	color: #9CA3B8;
+}
