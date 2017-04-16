@@ -4,6 +4,7 @@
 
 body {
 	background: #f6f9fc;
+	font-size: 16px;
 }
 
 
@@ -21,13 +22,29 @@ body {
 }
 
 .container {
-	margin-top: 40px;
+	margin-top: 80px;
 	width: 400px;
 }
 
-p, h1 {
+
+h1 {
+	color: #333;
 	margin: 40px 0;
+	font-size: 22px;
 }
+
+p {
+	color: #333;
+	margin: 0 0 40px;
+}
+
+
+h2 {
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #9B9FB4;
+}
+
 
 .btn {
 	padding: 10px 15px;
@@ -44,7 +61,7 @@ p, h1 {
 
 }
 
-.btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:link {
+.btn-primary:hover {
 	box-shadow: rgba(50, 50, 93, 0.30) 0px 4px 6px 0px;
 	background: #fff;
 	color: #9CA3B8;
